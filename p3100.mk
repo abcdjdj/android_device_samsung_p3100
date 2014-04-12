@@ -29,6 +29,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     SamsungServiceMode
 
+# Apollo
+PRODUCT_PACKAGES += Apollo
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     mobiledata.interfaces=pdp0,wlan0,gprs,ppp0
